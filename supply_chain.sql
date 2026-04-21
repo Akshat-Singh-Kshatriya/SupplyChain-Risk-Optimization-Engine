@@ -8,10 +8,7 @@ CREATE TABLE machine_health_predictions (
     "Predicted_Failure" INTEGER,
     "Failure_Probability" FLOAT
 );
-COPY machine_health_predictions
-FROM 'D:\akshat\Downloads\machine_health_predictions.csv' 
-DELIMITER ',' 
-CSV HEADER;
+# use the copy command to have the dataset in PostgreSQL
 
 CREATE TABLE dataco (
     "Type" TEXT,
@@ -69,7 +66,7 @@ CREATE TABLE dataco (
     "Shipping Mode" TEXT
 );
 
-copy dataco FROM 'D:\akshat\Downloads\dataco.csv' DELIMITER ',' CSV HEADER ENCODING 'WIN1252';
+# use the copy command to have the dataset in PostgreSQL
 ALTER TABLE machine_health_predictions ADD COLUMN "Machine_ID" SERIAL;
 
 
@@ -92,6 +89,5 @@ JOIN
     dataco sco ON MOD(sco."Order Id", 5) = MOD(mp."Machine_ID", 5);
 
 
-
-copy (SELECT * FROM vw_SupplyChain_Risk_Assessment) TO 'D:\akshat\Downloads/Final_Dashboard_Data.csv' WITH CSV HEADER;
+# move the view table in csv file for PowerBI
 
