@@ -1,21 +1,9 @@
 # End-to-End Predictive Maintenance & Logistics Risk Analytics
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#executive-summary">Executive Summary</a></li>
-    <li><a href="#the-business-problem">The Business Problem</a></li>
-    <li><a href="#technical-architecture">Technical Architecture</a></li>
-    <li><a href="#numerical-results">Numerical Results</a></li>
-    <li><a href="#tech-stack">Tech Stack</a></li>
-  </ol>
-</details>
-
 ## Executive Summary
 
 ### 📊 Interactive Dashboard Overview
 
-![Power BI Dashboard Overview: Smart Factory Control Tower](./dashboard_screenshot.png)
+![Power BI Dashboard Overview: Smart Factory Control Tower](./images/dashboard_screenshot.png)
 
 This project demonstrates a "Strategy to Execution" approach by bridging the gap between manufacturing floor telemetry and global supply chain logistics. It utilizes a **Digital Twin** framework to predict machinery failure and quantify its downstream financial impact on order fulfillment, shipping penalties, and customer satisfaction. By integrating **Machine Learning (Python)**, **Relational Database Modeling (SQL)**, and **Business Intelligence (Power BI)**, this tool acts as a "Control Tower" for modern, connected supply chains.
 
