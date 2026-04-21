@@ -25,7 +25,7 @@ In a "Smart Factory" environment, machine downtime is not just a maintenance iss
 * **Functionality**: Developed interactive KPI cards and slicers to allow "diagnostic and benchmarking" of large data sets.
 
 ## Numerical Results
-* **Model Reliability**: Achieved an **Average F1-Score of 94.2%**, ensuring high precision in maintenance scheduling to avoid unnecessary part orders.
+* **Model Reliability**: Achieved an **Average F1-Score of 84.36%**, ensuring high precision in maintenance scheduling to avoid unnecessary part orders.
 * **Operational Impact**: The dashboard identifies the **Top 10 High-Risk Products** by revenue, allowing managers to prioritize maintenance on machines that affect the most profitable elements of the value chain.
 * **Financial Visibility**: Quantified **Revenue at Risk** due to downtime, providing a data-driven basis for "Make-vs-Buy" and "Insource vs. Outsource" analysis.
 
