@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold, cross_val_score, RandomizedSearchCV
 
-df = pd.read_csv('ai4i2020.csv')
+df = pd.read_csv('dataset1.csv')
 
 df['Power'] = df['Torque [Nm]'] * df['Rotational speed [rpm]'] 
 df['Temp_Diff'] = df['Process temperature [K]'] - df['Air temperature [K]']
