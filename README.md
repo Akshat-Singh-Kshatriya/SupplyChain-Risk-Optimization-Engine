@@ -1,4 +1,4 @@
-**End-to-End Predictive Maintenance & Logistics Risk Analytics**
+## End-to-End Predictive Maintenance & Logistics Risk Analytics
 
 ## Executive Summary
 This project demonstrates a "Strategy to Execution" approach by bridging the gap between manufacturing floor telemetry and global supply chain logistics. It utilizes a **Digital Twin** framework to predict machinery failure and quantify its downstream financial impact on order fulfillment, shipping penalties, and customer satisfaction. By integrating **Machine Learning (Python)**, **Relational Database Modeling (SQL)**, and **Business Intelligence (Power BI)**, this tool acts as a "Control Tower" for modern, connected supply chains.
